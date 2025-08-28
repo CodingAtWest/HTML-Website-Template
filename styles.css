@@ -1,0 +1,27 @@
+    body {
+        background-color: #112025
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        color: yellow;
+        text-align: center;
+    }
+    p {
+  text-align: center;
+  color: yellow;
+}
+    h2 {
+      color: purple;
+      text-align: center;
+    }
+.typewriter p {
+  overflow: hidden; /* Hides text initially */
+  white-space: nowrap; /* Keeps text on a single line */
+  border-right: .15em solid orange; /* Creates the blinking cursor */
+  font-family: monospace; /* Optional: for a classic typewriter look */
+}
+
+
+
+
