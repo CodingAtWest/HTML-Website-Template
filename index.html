@@ -1,8 +1,41 @@
 <!doctype html>
 <html>
           <head>
-            <link rel="stylesheet" href="styles.css">
-        </head>
+           
+                    <link rel="stylesheet" href="styles.css">
+          </head>
+          <body>    <input type="text" id="usernameInput" placeholder="Enter your username">
+    <input type="password" id="passwordInput" placeholder="Enter your password">
+    <input type="checkbox" id="agreeCheckbox"> I agree to the terms
+    <textarea id="messageInput" rows="4" cols="50"></textarea>
+    <select id="countrySelect">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+    </select>
+    <button id="submitButton">Submit</button>
+<script>    const usernameInput = document.getElementById('usernameInput');
+    const submitButton = document.getElementById('submitButton');
+              submitButton.addEventListener('click', function() {
+        const username = usernameInput.value;
+        console.log('Username submitted:', username);
+        // Further processing of the input
+    });
+
+    usernameInput.addEventListener('input', function() {
+        console.log('Current input:', usernameInput.value);
+    });
+    const isChecked = agreeCheckbox.checked;
+
+
+
+
+
+</script>
+          
+          
+          
+          
+          </body>
 
 
 
